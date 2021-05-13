@@ -1,0 +1,106 @@
+body{
+    background-color: #eceffd;
+}
+
+.main-card{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+.card-1{
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 4px #0000005e;
+    border-radius: 20px;
+    margin-right: 50px;
+    img{
+        height: 150px;
+    }
+    a{
+        display: block;
+        text-decoration: none;
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        border-radius: 25px;
+    }
+    input{
+        width: 100%;
+        padding: 10px 0;
+        border-radius: 25px;
+        margin-bottom: 20px;
+        outline: none;
+        &::placeholder{
+            text-align: center;
+        }
+    }
+}
+.card-2{
+   background-color: white;
+    width: 20%;
+    padding: 20px;
+    box-shadow: 1px 1px 10px 4px #0000005e;
+    border-radius: 20px;
+   
+    .photo{
+        overflow: hidden;
+        img{
+            height: 250px;
+        }
+    }
+    .icons{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     .bi-bookmark-check{
+        font-size: 20px;
+        color: white;
+        background-color: blue;
+        padding: 13px 16px;
+        border-radius: 50%;
+    }
+ }
+}
+.wrapper{
+    width: 50%;
+    margin-top: 50px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    
+.bottom-input{
+    position: relative;
+    
+    input{
+        border-color: rgba(156, 142, 142, 0.74);
+        width: 100%;
+        padding: 20px 0;
+        outline: none;
+        border-radius: 15px;
+       
+    }
+    .bi-search{
+        position: absolute;
+        right: 70px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        
+    }
+    .bi-funnel-fill{
+        position: absolute;
+        color: white;
+        right: -3px;
+        top: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 20px;
+        padding: 16px ;
+        background-color: blue;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+}
+}
+}
